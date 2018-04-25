@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kingdom of Glory</title>
+    <script src="lib/extendjs/extend.min.js"></script>
+    <script src="lib/animation/requestAnimationFramePolyfill.js"></script>
+    <script src="lib/input/keyboard.js"></script>
+    <script src="lib/net/AJAX.js"></script>
+    <script src="lib/media/SoundManager.js"></script>
+    <script src="lib/media/CanvasFilters.js"></script>
+    <script src="lib/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/dist/sweetalert.css">
+    <link type="text/css" rel="stylesheet" media="screen" href="css/styleKOG.css">
+    <script src="SpriteSheet.js"></script>
+    <script src="Inicio.js"></script>
+    <script src="GameWorld.js"></script>
+    <script src="Camera.js"></script>
+    <script src="Entity.js"></script>
+    <script src="Ninja.js"></script>
+    <script src="SilverWarrior.js"></script>
+    <script src="Selvagem.js"></script>
+    <script src="Viking.js"></script>
+    <script src="BossYric.js"></script>
+    <script src="Background.js"></script>
+    <script src="Game.js"></script>
+
+    <style>
+        canvas{border: 5px solid black}
+    </style>
+
+</head>
+<body>
+
+<!-- Ecra Inicial -->
+<div id="background-image"></div>
+<div id="ecraInicial" style="display: block">
+    <label>Kingdom Of Glory</label>
+    <input type="submit" value="START" id="comecarJogo" style="left: 215px; top: 250px">
+</div>
+
+<!-- Ecra Historia-->
+<div id="historia">
+    <div id="zonaTexto">
+    <label></label>
+    </div>
+    <input type="submit" value="Next" id="next">
+</div>
+
+<!-- Ecra Escolher Nome -->
+<div id="escolherNome" style="display: none">
+    <label>Kingdom Of Glory</label>
+    <input id="nomeEscolhido" type="text" value="Ninja" placeholder="Introduz o nome do teu ninja" title="Máximo de 20 caracteres" maxlength="20">
+    <input id="batalha" type="submit" value="START GAME" style="left: 210px; top: 250px">
+</div>
+<!--Imagem final jogo-->
+<img id="imgEndGame1" src="assets/endGame1.png" style="display: none"/>
+<img id="imgEndGame2" src="assets/endGame2.png" style="display: none"/>
+<img id="imgDead" src="assets/dead.png" style="display: none"/>
+<!-- Jogo -->
+<div id="divJogo" style="display: none">
+
+    <!-- Ecra Loading -->
+    <div id="loadInfo" class="visible">
+        <div id="overlay"></div>
+        <img id="loader" src="assets/Loading3.gif"/>
+        <div id="assetLoaded"></div>
+    </div>
+    <canvas id="hpBar" width="200" height="12"></canvas>
+    <canvas id="jogo" width="1340" height="400"></canvas>
+    <label id="titulo">Kingdom Of Glory</label>
+
+    <div id="stats">
+        <div id="nameStats" style="height: 40px; border: 1px solid black"></div>
+        <div id="expStats" style="height: 70px; border: 1px solid black">
+            <label id="exp">Exp:</label>
+            <canvas id="xpBar" width="180" height="15"></canvas>
+        </div>
+        <div id="ataquesStats">
+            <div id="labelsAtaques"></div>
+            <div id="poderAtaques"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Ecra de Batalha -->
+<div id="FightScreen" style="display: none; z-index: 10">
+    <div id="zonaHeroi">
+        <label id="nomePortraitNinja"></label>
+    </div>
+    <div id="ZonaVidaHeroi">
+        <canvas id="healthbarNinja" width="290" height="30"></canvas>
+    </div>
+    <div id="zonaAtaquesHeroi">
+        <input type="button" id="btnAtaque1Heroi"
+               style=" position: absolute; top: 40px; width: 300px; height: 50px; cursor: pointer">
+        <input type="button" id="btnAtaque2Heroi"
+               style=" position: absolute; top: 120px; width: 300px; height: 50px; cursor: pointer">
+    </div>
+    <div id="zonaVersus">
+        <div id="combatLog">
+            <textarea readonly id="FightLog" style="display: none"></textarea>
+        </div>
+    </div>
+    <div id="zonaInimigo">
+        <label id="nomePortraitInimigo"></label>
+    </div>
+    <div id="ZonaVidaInimigo">
+        <canvas id="healthbarInimigo" width="290" height="30"></canvas>
+    </div>
+    <div id="zonaAtaquesInimigo">
+        <input type="submit" disabled="disabled" id="btnNivelInimigo"
+               style=" position: absolute; top: 40px; width: 300px; height: 50px">
+        <input type="submit" disabled="disabled" id="btnAtaque1Inimigo"
+               style=" position: absolute; top: 120px; width: 300px; height: 50px">
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+{
+"frames": {
+	"ANDAR_01.png": {
+		"frame": {"x":107, "y":0, "w":106, "h":102},
+		"spriteSourceSize": {"x":2,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_02.png": {
+		"frame": {"x":214, "y":104, "w":105, "h":102},
+		"spriteSourceSize": {"x":2,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_03.png": {
+		"frame": {"x":107, "y":311, "w":106, "h":103},
+		"spriteSourceSize": {"x":2,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_04.png": {
+		"frame": {"x":107, "y":103, "w":106, "h":103},
+		"spriteSourceSize": {"x":2,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_05.png": {
+		"frame": {"x":107, "y":207, "w":106, "h":103},
+		"spriteSourceSize": {"x":2,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"MORRER.png": {
+		"frame": {"x":214, "y":310, "w":102, "h":105},
+		"spriteSourceSize": {"x":22,"y":8,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"PARADO.png": {
+		"frame": {"x":214, "y":207, "w":105, "h":102},
+		"spriteSourceSize": {"x":5,"y":8,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_01.png": {
+		"frame": {"x":0, "y":311, "w":106, "h":102},
+		"spriteSourceSize": {"x":25,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_02.png": {
+		"frame": {"x":0, "y":208, "w":106, "h":102},
+		"spriteSourceSize": {"x":25,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_03.png": {
+		"frame": {"x":0, "y":104, "w":106, "h":103},
+		"spriteSourceSize": {"x":25,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_04.png": {
+		"frame": {"x":214, "y":0, "w":105, "h":103},
+		"spriteSourceSize": {"x":26,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_05.png": {
+		"frame": {"x":0, "y":0, "w":106, "h":103},
+		"spriteSourceSize": {"x":25,"y":6,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	}
+
+},
+"meta": {
+	"image": "sprites.png",
+	"size": {"w": 320, "h": 416},
+	"scale": "1"
+}
+}

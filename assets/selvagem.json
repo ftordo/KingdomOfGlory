@@ -1,0 +1,80 @@
+{
+"frames": {
+	"ANDAR_01.png": {
+		"frame": {"x":200, "y":344, "w":99, "h":113},
+		"spriteSourceSize": {"x":10,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_02.png": {
+		"frame": {"x":300, "y":116, "w":99, "h":114},
+		"spriteSourceSize": {"x":10,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_03.png": {
+		"frame": {"x":300, "y":0, "w":99, "h":115},
+		"spriteSourceSize": {"x":10,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_04.png": {
+		"frame": {"x":200, "y":230, "w":99, "h":113},
+		"spriteSourceSize": {"x":10,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_05.png": {
+		"frame": {"x":200, "y":114, "w":99, "h":115},
+		"spriteSourceSize": {"x":10,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"ANDAR_06.png": {
+		"frame": {"x":300, "y":231, "w":99, "h":114},
+		"spriteSourceSize": {"x":10,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"MORRER.png": {
+		"frame": {"x":0, "y":0, "w":114, "h":78},
+		"spriteSourceSize": {"x":15,"y":38,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"PARADO.png": {
+		"frame": {"x":100, "y":193, "w":99, "h":115},
+		"spriteSourceSize": {"x":10,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_01.png": {
+		"frame": {"x":100, "y":79, "w":99, "h":113},
+		"spriteSourceSize": {"x":24,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_02.png": {
+		"frame": {"x":0, "y":309, "w":99, "h":113},
+		"spriteSourceSize": {"x":24,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_03.png": {
+		"frame": {"x":0, "y":193, "w":99, "h":115},
+		"spriteSourceSize": {"x":24,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_04.png": {
+		"frame": {"x":0, "y":79, "w":99, "h":113},
+		"spriteSourceSize": {"x":24,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_05.png": {
+		"frame": {"x":200, "y":0, "w":99, "h":113},
+		"spriteSourceSize": {"x":24,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	},
+	"RECUAR_06.png": {
+		"frame": {"x":100, "y":309, "w":99, "h":115},
+		"spriteSourceSize": {"x":24,"y":0,"w":133,"h":120},
+		"sourceSize": {"w":133,"h":120}
+	}
+
+},
+"meta": {
+	"image": "sprites.png",
+	"size": {"w": 400, "h": 458},
+	"scale": "1"
+}
+}

@@ -1,0 +1,50 @@
+{
+"frames": {
+	"MORRER.png": {
+		"frame": {"x":0, "y":0, "w":163, "h":114},
+		"spriteSourceSize": {"x":7,"y":32,"w":180,"h":160},
+		"sourceSize": {"w":180,"h":160}
+	},
+	"PARADO.png": {
+		"frame": {"x":256, "y":160, "w":127, "h":159},
+		"spriteSourceSize": {"x":9,"y":1,"w":143,"h":163},
+		"sourceSize": {"w":143,"h":163}
+	},
+	"PARADO_01.png": {
+		"frame": {"x":256, "y":0, "w":127, "h":159},
+		"spriteSourceSize": {"x":9,"y":1,"w":143,"h":163},
+		"sourceSize": {"w":143,"h":163}
+	},
+	"PARADO_02.png": {
+		"frame": {"x":128, "y":275, "w":127, "h":159},
+		"spriteSourceSize": {"x":9,"y":1,"w":143,"h":163},
+		"sourceSize": {"w":143,"h":163}
+	},
+	"PARADO_03.png": {
+		"frame": {"x":256, "y":320, "w":127, "h":159},
+		"spriteSourceSize": {"x":9,"y":1,"w":143,"h":163},
+		"sourceSize": {"w":143,"h":163}
+	},
+	"PARADO_04.png": {
+		"frame": {"x":0, "y":275, "w":127, "h":159},
+		"spriteSourceSize": {"x":9,"y":1,"w":143,"h":163},
+		"sourceSize": {"w":143,"h":163}
+	},
+	"PARADO_05.png": {
+		"frame": {"x":128, "y":115, "w":127, "h":159},
+		"spriteSourceSize": {"x":9,"y":1,"w":143,"h":163},
+		"sourceSize": {"w":143,"h":163}
+	},
+	"PARADO_06.png": {
+		"frame": {"x":0, "y":115, "w":127, "h":159},
+		"spriteSourceSize": {"x":9,"y":1,"w":143,"h":163},
+		"sourceSize": {"w":143,"h":163}
+	}
+
+},
+"meta": {
+	"image": "sprites.png",
+	"size": {"w": 384, "h": 480},
+	"scale": "1"
+}
+}
